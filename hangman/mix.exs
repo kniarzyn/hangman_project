@@ -21,7 +21,7 @@ defmodule Hangman.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:dialyxir, "~> 1.4"}
+      {:dictionary, path: "../dictionary"}
     ]
   end
 end
